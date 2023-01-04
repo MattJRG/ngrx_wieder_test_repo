@@ -1,0 +1,38 @@
+{
+  "name": "ngrx-wieder-store",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^15.0.4",
+    "@angular/common": "^15.0.4",
+    "@angular/compiler": "^15.0.4",
+    "@angular/core": "^15.0.4",
+    "@angular/forms": "^15.0.4",
+    "@angular/platform-browser": "^15.0.4",
+    "@angular/platform-browser-dynamic": "^15.0.4",
+    "@angular/router": "^15.0.4",
+    "@ngrx/store": "^15.1.0",
+    "immer": "^9.0.17",
+    "ngrx-wieder": "^10.0.1",
+    "rxjs": "~7.5.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^15.0.4",
+    "@angular/cli": "^15.0.4",
+    "@angular/compiler-cli": "^15.0.4",
+    "@types/jest": "^29.2.5",
+    "@types/node": "^12.11.1",
+    "jest": "^28.1.3",
+    "jest-preset-angular": "^12.2.3",
+    "typescript": "~4.8.4"
+  }
+}
